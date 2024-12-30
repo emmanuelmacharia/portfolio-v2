@@ -1,0 +1,19 @@
+<div class="flex flex-row p-5 justify-start items-center border border-solid border-gray-100  rounded ring-1">
+    <div class=" basis-1/6">
+        <p class="text-xs "> {{experience().date}} </p>
+    </div>
+    <div class="p-5 basis-3/4 ">
+        <h3 class="font-bold leading-6">{{experience().title}}</h3>
+        <h4 class="font-bold text-sm leading-10">{{experience().organization}}</h4>
+        <p class="">{{experience().achievements}}</p>
+        <div class="flex flex-row gap-6  py-3">
+            @for(tool of experience().stack; track tool) {
+                <div class="pill">
+                    <span class="text-xs leading-8">
+                        {{ tool }}
+                    </span>
+                 </div>
+            }
+        </div>
+    </div>
+</div>
