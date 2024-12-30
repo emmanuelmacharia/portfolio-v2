@@ -1,0 +1,14 @@
+<div class="flex flex-row gap-20 justify-start">
+    @for(cat of categories; track cat) {
+        <div class="category flex flex-column">
+            <div class="">
+                <h2 class="font-bold text-sm">{{cat | titlecase}}</h2>
+                <ul>
+                    @for(i of sections.get(cat); track i){
+                        <li class="text-xs">{{i}}</li>
+                    }
+                </ul>
+            </div>
+        </div>
+    }
+</div>

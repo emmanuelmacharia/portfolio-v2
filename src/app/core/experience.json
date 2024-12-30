@@ -1,0 +1,56 @@
+[
+    {
+        "date": "April 2023 - Present",
+        "title": "Software Engineer Lead, Web and Chatbot Development",
+        "organization": "Equity Bank",
+        "stack": [ "TypeScript", "Angular", "Angular Material",  ".NET Framework", "C#",  "html", "scss", "css", "Bootstrap", "Azure", "SQL Server"],
+        "tools": ["Git", "Bash", "Azure", "Azure Pipelines", "Docker", "Kubernetes", "zsh"],
+        "responsibilities": [],
+        "achievements": "I have successfully deployed 100+ advanced features into production, managing updates and ensuring seamless integration for scalable, high-performing solutions. I also lead the migration of over 50,000 customers in the DRC to a bilingual conversational platform. By integrating Large Language Models (LLMs), I am enhancing chatbot interactions with natural conversational experiences. Mentoring and guiding diverse engineering teams, I foster collaboration and innovation to deliver impactful solutions that align with business goals and elevate user experiences."
+    },
+    {
+        "date": "September - December 2022",
+        "title": "Full-Stack Software Engineer Consultant",
+        "organization": "Aerial Data Labs",
+        "stack": [ "Javascript", "Python", "TypeScript", "React", "Django", "Material UI", "html", "scss", "css", "Bootstrap", "AWS", "MySQL"],
+        "tools": ["Git", "Bash", "Github", "Github Actions", "Docker", "Kubernetes", "AWS"],
+        "responsibilities": [],
+        "achievements": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
+    },
+    {
+        "date": "May 2021 - April 2023",
+        "title": "Senior Software Engineer",
+        "organization": "Equity Bank",
+        "stack": [ "Javascript", "TypeScript", "Angular", "Angular Material", "html", "scss", "css", "Bootstrap", "Azure"],
+        "tools": ["Git", "Bash", "Azure", "Azure Pipelines", "Docker", "Kubernetes", "zsh"],
+        "responsibilities": [],
+        "achievements": "I played a key role in the design, development, and launch of a scalable, responsive banking platform, significantly improving customer experience and satisfaction in the Democratic Republic of Congo. I led the expansion of the platform to serve over 1 million customers across six countries through successful localization and internationalization efforts. Collaborating closely with UI/UX designers, I ensured a consistent user experience that aligned with technical requirements. By providing technical support, I achieved onboarding and transaction success rates exceeding 90%, while working with backend developers to optimize services and APIs for enhanced performance."
+    },
+    {
+        "date": "February 2020 - May 2021",
+        "title": "Software Engineer, Frontend",
+        "organization": "Equity Bank",
+        "stack": ["TypeScript",  "Angular", "Angular Material", "html", "css", "scss", "Bootstrap"],
+        "tools": ["Git", "Bash", "Azure", "Azure Pipelines", "Docker", "Kubernetes", "zsh"],
+        "responsibilities": [],
+        "achievements": "I develop customer-facing features and products, optimizing applications for speed and scalability. I collaborate with the design team to create responsive designs and work with the API team to integrate endpoints with frontend apps. I ensure features meet requirements by working closely with the testing team to resolve bugs and issues. I analyze project requirements, arrange programming sequences, and conduct code reviews for team members. Additionally, I present and train stakeholders and users on new products and features."
+    },
+    {
+        "date": "July - September 2019",
+        "title": "ICT Supervisor",
+        "organization": "Kenya Population and Housing Census (KNBS)",
+        "stack": [],
+        "tools": [],
+        "responsibilities": [],
+        "achievements": "I delivered training programs for content supervisors and enumerators, equipping them with the skills to effectively conduct the census. I provided technical support and troubleshooting for devices in Dagoretti sub-county, ensuring smooth operations with minimal downtime. I managed logistical support for a team of 174, ensuring timely distribution of materials such as tablets and power banks. By developing and implementing strategies, I successfully enumerated over 98% of the population in my area, ensuring comprehensive and accurate data collection. I also compiled and distributed daily progress reports, while ensuring data integrity through rigorous quality assurance processes."
+    },
+    {
+        "date": "October 2017 - February 2019",
+        "title": "Frontend Software Engineer",
+        "organization": "Geecko Group Holdings",
+        "stack": ["html", "css", "jQuery", "php", "laravel", "MySQL"],
+        "tools": ["Git", "Gitlab", "phpAdmin"],
+        "responsibilities": [],
+        "achievements": "I collaborated with the development team to enhance application usability, navigation, and design, improving user experience and efficiency. I led performance optimization efforts, boosting website speed and responsiveness by over 40% through techniques like caching, lazy loading, and script minification. I executed SEO strategies, securing consistent top 5 rankings for the site. I also designed and oversaw the development of mobile apps for Android and iOS, ensuring they met user needs. Additionally, I designed and curated content for the Syfe car-hire service blog and developed an early warning system for NGOs during the Covid-19 pandemic."
+    }
+]

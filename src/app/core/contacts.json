@@ -1,0 +1,28 @@
+{
+    "contacts": {
+        "github": {
+            "platform": "Github",
+            "iconName": "github",
+            "link": "",
+            "alt": ""
+        },
+        "linkedIn": {
+            "platform": "LinkedIn",
+            "iconName": "linkedIn",
+            "link": "",
+            "alt": ""
+        },
+        "discord":{
+            "platform": "Discord",
+            "iconName": "discord",
+            "link": "",
+            "alt": ""
+        },
+        "twitter":{
+            "platform": "X",
+            "iconName": "twitter",
+            "link": "",
+            "alt": ""
+        }
+    }
+}
