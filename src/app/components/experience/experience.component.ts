@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { ExperienceItemComponent } from "./experience-item/experience-item.component";
-import experiences from "../core/experience.json";
-import { IExperience } from '../core/models/experience';
+import experiences from "../../core/experience.json";
+import { IExperience } from '../../core/models/experience';
 
 @Component({
   selector: 'app-experience',

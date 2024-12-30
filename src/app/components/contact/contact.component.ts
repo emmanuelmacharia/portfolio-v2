@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { faGithub, faLinkedin, faDiscord, faFacebook, faXTwitter } from '@fortawesome/free-brands-svg-icons';
-import contacts from '../../app/core/contacts.json'
+import contacts from '../../../app/core/contacts.json'
 
 
 @Component({
