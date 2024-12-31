@@ -6,7 +6,7 @@
         <h3 class="font-bold leading-6">{{experience().title}}</h3>
         <h4 class="font-bold text-sm leading-10">{{experience().organization}}</h4>
         <p class="">{{experience().achievements}}</p>
-        <div class="flex flex-row gap-6  py-3">
+        <div class="flex flex-row flex-wrap gap-5  py-2">
             @for(tool of experience().stack; track tool) {
                 <div class="pill">
                     <span class="text-xs leading-8">
