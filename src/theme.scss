@@ -1,0 +1,95 @@
+:root {
+    /*NIGHT SHADE*/
+    --night-shade-primary:  oklch(68.5% 0.1019 297.64);
+    --night-shade-secondary: oklch(87.7% 0.0835 336.72);
+    --night-shade-background: var(--night-shade-primary);
+    --night-shade-gradient: linear-gradient(to top, var(--night-shade-primary) 0%, var(--night-shade-secondary), 100%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    --night-shade-gradient-webkit: -webkit-linear-gradient(to top, #a18cd1, 0%, #fbc2eb 100%); /* Chrome 10-25, Safari 5.1-6 */
+
+    /*AMY CRISP*/
+    --amy-crisp-primary: oklch(81.09% 0.0927 266.75);
+    --amy-crisp-secondary: oklch(73.34% 0.1444 19.14);
+    --amy-crisp-background: var(--amy-crisp-background);
+    --amy-crisp-gradient:  linear-gradient(120deg, var(--amy-crisp-primary), 0%, var(--amy-crisp-secondary), 100%);
+    --amy-crisp-gradient-webkit:  -webkit-linear-gradient(120deg, var(--amy-crisp-primary) 0%, var(--amy-crisp-secondary) 100%);
+
+    /*DENSE WATER*/
+    --dense-water-primary: oklch(70.57% 0.106 191.08);
+    --dense-water-secondary: oklch(64.38% 0.1018 228.21);
+    --dense-water-accent: oklch(39.57% 0.1218 304.85);
+    --dense-water-background: var(--dense-water-primary);
+    --dense-water-gradient: linear-gradient(to right, var(--dense-water-primary) 0%, var(--dense-water-secondary) 31%, var(--dense-water-accent) 100%);
+    --dense-water-gradient-webkit: -webkit-linear-gradient(to right, var(--dense-water-primary) 0%, var(--dense-water-secondary) 31%, var(--dense-water-accent) 100%);
+
+    /*LAWRENCIUM*/
+    --lawrencium-primary: oklch(17.85% 0.0571 283.68);
+    --lawrencium-secondary: oklch(32.7% 0.0956 283.81);
+    --lawrencium-accent: oklch(27.37% 0.0477 282.79);
+    --lawrencium-background: : #0f0c29; /* fallback for old browsers */
+    --lawrencium-gradient: linear-gradient(to right, var(--lawrencium-primary), var(--lawrencium-secondary), var(--lawrencium-accent)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    --lawrencium-gradient-webkit: -webkit-linear-gradient(to right, var(--lawrencium-primary), var(--lawrencium-secondary), var(--lawrencium-accent)); /* Chrome 10-25, Safari 5.1-6 */
+
+    /*FROST*/
+    --frost-primary: oklch(14.01% 0.0766 263.68);
+    --frost-secondary: oklch(42.38% 0.129764919838297 252.7742882507398);
+    --frost-background: #000428;  /* fallback for old browsers */
+    --frost-gradient-webkit: -webkit-linear-gradient(to right, var(--frost-secondary), var(--frost-primary));  /* Chrome 10-25, Safari 5.1-6 */
+    --frost-gradient: linear-gradient(to right, var(--frost-secondary), var(--frost-primary)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    /*ROYAL*/
+    --royal-primary: oklch(23.51% 0.0378 261.65);
+    // --royal-secondary: oklch(34.6% 0.0543 252.39);
+    --royal-secondary: oklch(34.9% 0.0618 256.21);
+    --royal-background: #141E30;  /* fallback for old browsers */
+    --royal-gradient-webkit: -webkit-linear-gradient(to right, var(--royal-secondary), var(--royal-primary));  /* Chrome 10-25, Safari 5.1-6 */
+    --royal-gradient: linear-gradientt(to right, var(--royal-secondary), var(--royal-primary)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    --clr-primary-a0: #141e30;
+    --clr-primary-a10: #2b3344;
+    --clr-primary-a20: #424959;
+    --clr-primary-a30: #5a606f;
+    --clr-primary-a40: #747985;
+    --clr-primary-a50: #8e929c;
+
+    /*ATLAS*/
+    --atlas-primary: oklch(80.94% 0.1346 62.49);
+    --atlas-secondary: oklch(69.01% 0.149 323.24);
+    --atlas-accent: oklch(74.55% 0.104 201.53);
+    --atlas-background: #FEAC5E;  /* fallback for old browsers */
+    --atlas-gradient: -webkit-linear-gradient(to right, var(--atlas-accent), var(--atlas-secondary), var(--atlas-primary));  /* Chrome 10-25, Safari 5.1-6 */
+    --atlas-gradient-webkit: linear-gradient(to right, var(--atlas-accent), var(--atlas-secondary), var(--atlas-primary)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+    /*ANGULAR*/
+    --bright-blue: oklch(51.01% 0.274 263.83);
+    --electric-violet: oklch(53.18% 0.28 296.97);
+    --french-violet: oklch(47.66% 0.246 305.88);
+    --vivid-pink: oklch(69.02% 0.277 332.77);
+    --hot-red: oklch(61.42% 0.238 15.34);
+    --orange-red: oklch(63.32% 0.24 31.68);
+
+    --gray-900: oklch(19.37% 0.006 300.98);
+    --gray-700: oklch(36.98% 0.014 302.71);
+    --gray-400: oklch(70.9% 0.015 304.04);
+
+    --red-to-pink-to-purple-vertical-gradient: linear-gradient(
+        180deg,
+        var(--orange-red) 0%,
+        var(--vivid-pink) 50%,
+        var(--electric-violet) 100%
+    );
+
+    --red-to-pink-to-purple-horizontal-gradient: linear-gradient(
+        90deg,
+        var(--orange-red) 0%,
+        var(--vivid-pink) 50%,
+        var(--electric-violet) 100%
+    );
+
+    --color-primary: hsl(0, 0%, 0%);
+    --color-secondary: hsl(0, 0%, 50%);
+    --color-text-base: (0, 0%, 100%);
+    --color-bg-primary: (0, 0%, 100%);
+    --white: rgba(255, 255, 255);
+    
+}

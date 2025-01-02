@@ -11,15 +11,15 @@ export class NavigationComponent {
   navItems = [
     {
       displayName: "About",
-      link: ""
+      link: "#about"
     },
     {
       displayName: "Experience",
-      link: ""
+      link: "#experience"
     },
     {
       displayName: "Projects",
-      link: ""
+      link: "#projects"
     }
   ]
 }
