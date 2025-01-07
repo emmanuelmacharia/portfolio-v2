@@ -1,15 +1,31 @@
 <div class="block my-6">
-    <div class="basis">
-        <a href="">
-            <h3 class="font-bold leading-6">
-                {{ project().name}}
-            </h3>
-        </a>
+    <div class="basis flex flex-row gap-4">
+            <a [href]="project().url ? project().url : project().repo"  target="_blank"  rel="noopener noreferrer" >
+                <h3 class="font-bold leading-6">
+                    {{ project().name}}
+                </h3>
+            </a>
+            @if(project().repo) {
+                <a [href]="project().repo" target="_blank" rel="noopener noreferrer">
+                    <span>
+                        <fa-icon [icon]="github"></fa-icon>
+                    </span>
+                </a>
+            }
+            @if(project().url) {
+                <a [href]="project().url" target="_blank" rel="noopener noreferrer">
+                <span>
+                    <fa-icon [icon]="link"></fa-icon>
+                </span>
+                </a>
+            }
     </div>
     <div class="flex py-4">
-        {{ project().description}}
+        <p class=" text-wrap showcase-description">
+            {{ project().description}}
+        </p>
     </div>
-    <div class="flex flex-row gap-6 py-3">
+    <div class="flex flex-row gap-6 py-3 flex-wrap">
         @for(tool of project().stack; track tool) {
             <div class="pill">
                 <span class="text-xs leading-8">
