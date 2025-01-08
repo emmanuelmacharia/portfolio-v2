@@ -1,19 +1,19 @@
 <div class="block my-6">
     <div class="basis flex flex-row gap-4">
-            <a [href]="project().url ? project().url : project().repo"  target="_blank"  rel="noopener noreferrer" >
+            <a [href]="project().url ? project().url : project().repo"  target="_blank"  rel="noopener noreferrer" class="hover:text-dense_water_primary ease-in duration-150">
                 <h3 class="font-bold leading-6">
                     {{ project().name}}
                 </h3>
             </a>
             @if(project().repo) {
-                <a [href]="project().repo" target="_blank" rel="noopener noreferrer">
+                <a [href]="project().repo" target="_blank" rel="noopener noreferrer"  class="hover:text-dense_water_primary ease-in duration-150">
                     <span>
                         <fa-icon [icon]="github"></fa-icon>
                     </span>
                 </a>
             }
             @if(project().url) {
-                <a [href]="project().url" target="_blank" rel="noopener noreferrer">
+                <a [href]="project().url" target="_blank" rel="noopener noreferrer"  class="hover:text-dense_water_primary ease-in duration-150">
                 <span>
                     <fa-icon [icon]="link"></fa-icon>
                 </span>

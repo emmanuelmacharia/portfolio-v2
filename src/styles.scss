@@ -16,6 +16,12 @@ body {
   font-family: Poppins, "Helvetica Neue", sans-serif;
   scroll-behavior: smooth;
 
+  // overrides
+  .bg-clip-text {
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
+
   .pill {
     display: flex;
     align-items: center;

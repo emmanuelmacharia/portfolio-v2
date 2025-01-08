@@ -4,7 +4,7 @@ export interface IProject {
     // type: "frontend" | "backend" | "script";
     type: String;
     repo: String;
-    // access: "Public" | "Private";
+    // access: "Public" | "Private" | "Proprietary";
     access: String;
     url: String;
     stack: String[];

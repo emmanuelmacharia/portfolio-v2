@@ -1,5 +1,23 @@
 [
     {
+        "name": "Equity Online",
+        "description": "A comprehensive digital banking solution designed to povide customers with access to a wide range of banking services. It caters to individuals and businesses in 6 countries, enabling them to perform transactions, manage accounts, get access to credit and other financial tools from anywhere. I play a pivotal role in it's design, development and deployment; spearheading efforts to create a responsive, scalable and secure platform that meets the diverse needs of millions of customers across multiple regions. I work closely with crossfunctional teams including designers, developers, quality assurance analysts, business analysts and data scientists to create a unified and untuitive user experience ",
+        "type": "frontend",
+        "repo":  "",
+        "access": "Proprietary",
+        "url": "https://equityonline.equitygroupholdings.com",
+        "stack": ["Javascript", "Typescript", "Angular", "Jest", "scss", "C#", ".NET Framework", "Azure", "Docker", "Kubernetes"]
+    },
+    {
+        "name": "Aerial Datalabs",
+        "description": "A dynamic platform designed to provide advanced data visualization and analysis tools for geospacial and aerial drone data. I was instrumental in developing and deploying the solution across both the frontend and the backend, implementing a responsive and user friendly interface that allow users to easily monitor their stockpiles, and maintaining robust APIs for optimised processing and report generation",
+        "type": "frontend",
+        "repo":  "",
+        "access": "Proprietary",
+        "url": "https://aerialdatalabs.copilot.app/",
+        "stack": ["Javascript", "React", "Python", "Django", "MapBox", "GDAL", "scss", "React Query",  "MUI", "Styled Components", "Puppeteer",  "AWS", "Github Actions", "Sentry"]
+    },
+    {
         "name": "Portfolio v1",
         "description": "A web application that describes me as a professional, and showcases my work",
         "type": "frontend",
