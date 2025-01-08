@@ -10,6 +10,7 @@ import { fileURLToPath } from 'node:url';
 
 const serverDistFolder = dirname(fileURLToPath(import.meta.url));
 const browserDistFolder = resolve(serverDistFolder, '../browser');
+import { getContext } from '@netlify/angular-runtime/context'
 
 const app = express();
 const angularApp = new AngularNodeAppEngine();
@@ -59,6 +60,14 @@ if (isMainModule(import.meta.url)) {
     console.log(`Node Express server listening on http://localhost:${port}`);
   });
 }
+
+export async function netlifyAppEngineHandler(request: Request | any): Promise<Response> {
+  const context = getContext()
+
+  const result = await angularApp.handle(request, context)
+  return result || new Response('Not found', { status: 404 })
+}
+
 
 /**
  * The request handler used by the Angular CLI (dev-server and during build).
