@@ -45,16 +45,22 @@ body {
   }
 
   ::-webkit-scrollbar {
-    background: rgba(0, 0, 0, 0);
     cursor: pointer;
-    margin: 2px;
+    width: 4px;
   }
 
   ::-webkit-scrollbar-button{}
 
-  ::-webkit-scrollbar-thumb{}
+  ::-webkit-scrollbar-thumb{
+    @media screen and (max-width > 768px) {
+      height: 5rem;
+      border-radius: 5px;
+    }
+  }
 
-  ::-webkit-scrollbar-track{}
+  ::-webkit-scrollbar-track{
+    background: var(--royal-secondary);
+  }
 
 
 }
