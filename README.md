@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e4945306-a593-448e-86b5-aaf6219ad06a/deploy-status)](https://app.netlify.com/sites/emmanuelmacharia-v2/deploys)
+
 # PortfolioV2
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.5.
