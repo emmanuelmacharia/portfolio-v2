@@ -10,7 +10,7 @@
         <h4 class="font-bold text-sm leading-10">
           {{ experience().organization }}
         </h4>
-        <p class="max-h-24 text-sm overflow-y-auto  text-wrap">{{ experience().achievements }}</p>
+        <p class="md:max-h-24 max-h-48 text-sm overflow-y-auto  text-wrap">{{ experience().achievements }}</p>
         <div class="flex flex-row flex-wrap md:gap-5 gap-3 pt-4">
           @for (tool of experience().stack; track tool) {
             <div class="pill">
