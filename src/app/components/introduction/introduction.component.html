@@ -1,9 +1,9 @@
 <section class="pb-5 px-0 pt-3 lg:pt-0">
-    <h1 class="text-2xl mb-2 text-grey-50" >Emmanuel Macharia</h1>
+    <h1 class="text-2xl mb-2 text-grey-50 font-bold" >Emmanuel Macharia</h1>
     <div class="container m-0 py-2">
-        <p class="text-lg text-grey-50 text-bold leading-8 pb-3">Software Engineer</p>
+        <p class="text-lg text-grey-50 text-bold leading-8 pb-1">Software Engineer</p>
         <div class="min-w-[100%] ">
-            <div class="text-xs flex flex-row items-center" #backend>
+            <div class="text-sm flex flex-row items-center" #backend>
                 <span #backendText></span> 
                 <div #terminal class="console-underscore">
                     &#95;
@@ -21,4 +21,9 @@
             }
         </p> 
     </div>
+
+    <section class="contact lg:hidden py-3">
+        <div class="contacts my-2">
+          <app-contact />
+      </div>
 </section>

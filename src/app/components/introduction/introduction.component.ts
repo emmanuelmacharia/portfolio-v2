@@ -1,10 +1,11 @@
 import { AfterViewInit, Component, ElementRef, inject, OnInit, PLATFORM_ID, signal, ViewChild } from '@angular/core';
 import { isPlatformBrowser } from '@angular/common';
+import { ContactComponent } from "../contact/contact.component";
 
 
 @Component({
   selector: 'app-introduction',
-  imports: [],
+  imports: [ContactComponent],
   templateUrl: './introduction.component.html',
   styleUrl: './introduction.component.scss',
 })
@@ -32,7 +33,7 @@ export class IntroductionComponent implements AfterViewInit {
   backendDisplayText = "Backend";
   aiDisplayText = "Machine Learning & AI";
 
-  stackTexts = ["Frontend", "Backend", "Machine Learning and AI"]
+  stackTexts = ["Frontend", "Backend", "Machine Learning & AI"]
 
 
   ngAfterViewInit(): void {
