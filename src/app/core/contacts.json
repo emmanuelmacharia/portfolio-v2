@@ -3,26 +3,26 @@
         "github": {
             "platform": "Github",
             "iconName": "github",
-            "link": "",
-            "alt": ""
+            "link": "https://github.com/emmanuelmacharia",
+            "alt": "Github"
         },
         "linkedIn": {
             "platform": "LinkedIn",
             "iconName": "linkedIn",
-            "link": "",
-            "alt": ""
+            "link": "https://www.linkedin.com/in/emmanuel-macharia/",
+            "alt": "LinkedIn"
         },
         "discord":{
             "platform": "Discord",
             "iconName": "discord",
-            "link": "",
-            "alt": ""
+            "link": "https://discord.gg/TnM5vfaA",
+            "alt": "Discord"
         },
         "twitter":{
             "platform": "X",
             "iconName": "twitter",
-            "link": "",
-            "alt": ""
+            "link": "https://twitter.com/Samwelehrmarsh",
+            "alt": "twitter"
         }
     }
 }

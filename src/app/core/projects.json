@@ -42,7 +42,7 @@
         "repo":  "https://github.com/emmanuelmacharia/JavaScript-Development-Environment",
         "access": "Public",
         "url": "",
-        "stack": ["reactjs", "react-router", "scss", "react-fontawesome"]
+        "stack": ["webpack", "babel", "mocha-chai", "express", "npm-scripts"]
     },
     {
         "name": "Pomodoro clock",
