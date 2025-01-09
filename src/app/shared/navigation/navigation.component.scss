@@ -1,0 +1,17 @@
+.navigation-item {
+    position: relative;
+    &::after {
+        content: '';
+        position: absolute;
+        height: 2px;
+        left: 0;
+        bottom: 0;
+        width: 0;
+        background: var(--dense-water-primary);
+        transition: width .2s;
+    }
+    &:hover:after {
+        width: 95%;
+    }
+
+}

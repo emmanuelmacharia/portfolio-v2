@@ -1,13 +1,10 @@
 import { AfterViewInit, Component, ElementRef, inject, OnInit, PLATFORM_ID, signal, ViewChild } from '@angular/core';
-import { ContactComponent } from '../contact/contact.component';
 import { isPlatformBrowser } from '@angular/common';
-import { gsap } from 'gsap';
-import { TextPlugin } from "gsap/TextPlugin";
 
 
 @Component({
   selector: 'app-introduction',
-  imports: [ContactComponent],
+  imports: [],
   templateUrl: './introduction.component.html',
   styleUrl: './introduction.component.scss',
 })
@@ -29,11 +26,13 @@ export class IntroductionComponent implements AfterViewInit {
   taglines = [
     "that positively impact communities",
     "that empower people to do more",
-    "that are secure, performant, and accessible to all users"
+    "that are secure and accessible to all users"
   ]
 
   backendDisplayText = "Backend";
   aiDisplayText = "Machine Learning & AI";
+
+  stackTexts = ["Frontend", "Backend", "Machine Learning and AI"]
 
 
   ngAfterViewInit(): void {
@@ -58,13 +57,13 @@ export class IntroductionComponent implements AfterViewInit {
     setInterval(() => {
       if(this.letterCount === 0 && this.waiting() === false) {
         this.waiting.set(true);
-        this.backendText.nativeElement.innerHTML = this.backendDisplayText.substring(0, this.letterCount);
+        this.backendText.nativeElement.innerHTML = this.stackTexts[0].substring(0, this.letterCount);
         this.resetConfig();
-      } else if (this.letterCount === this.backendDisplayText.length + 1 && this.waiting() === false) {
+      } else if (this.letterCount === this.stackTexts[0].length + 1 && this.waiting() === false) {
         this.waiting.set(true)
         this.backSpace()
       }  else if (this.waiting() === false) {
-        this.backendText.nativeElement.innerHTML = this.backendDisplayText.substring(0, this.letterCount);
+        this.backendText.nativeElement.innerHTML = this.stackTexts[0].substring(0, this.letterCount);
         this.letterCount += this.keyboardInterval;
       }
     }, 150);
@@ -74,6 +73,9 @@ export class IntroductionComponent implements AfterViewInit {
 
   private resetConfig(): void {
     setTimeout(() => {
+      let usedWord = this.stackTexts[0]
+      this.stackTexts.shift();
+      this.stackTexts.push(usedWord)
       this.keyboardInterval = 1;
       this.letterCount += this.keyboardInterval;
       this.waiting.set(false);
@@ -93,7 +95,6 @@ export class IntroductionComponent implements AfterViewInit {
 
   private blinkUnderscore(): void {
     // mimic terminal behaviour by hiding and unhiding the underscore every 400ms
-    console.log(this.visible())
     setInterval(() => {
       if (this.visible() === true) {
         this.terminal.nativeElement.classList.add('invisible');

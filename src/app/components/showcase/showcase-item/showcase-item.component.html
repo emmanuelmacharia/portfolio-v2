@@ -1,7 +1,7 @@
 <div class="block my-6 w-[95%]">
     <div class="basis flex flex-row gap-4">
             <a [href]="project().url ? project().url : project().repo"  target="_blank"  rel="noopener noreferrer" class="hover:text-dense_water_primary ease-in duration-150">
-                <h3 class="font-bold leading-6">
+                <h3 class="font-bold text-dense_water_primary leading-6">
                     {{ project().name}}
                 </h3>
             </a>
@@ -21,14 +21,14 @@
             }
     </div>
     <div class="flex py-4">
-        <p class=" text-wrap text-sm showcase-description">
+        <p class=" text-wrap text-sm font-light showcase-description">
             {{ project().description}}
         </p>
     </div>
     <div class="flex flex-row gap-6 py-3 flex-wrap">
         @for(tool of project().stack; track tool) {
             <div class="pill">
-                <span class="text-xs leading-8">
+                <span class="">
                     {{ tool }}
                 </span>
             </div>

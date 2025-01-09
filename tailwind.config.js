@@ -11,7 +11,7 @@ module.exports = {
     },
     colors: {},
     fontFamily: {
-      sans: ['Poppins', 'Helvetica Neue', 'sans-serif'],
+      Poppins: ['Poppins'],
     },
     extend: {
       spacing: {

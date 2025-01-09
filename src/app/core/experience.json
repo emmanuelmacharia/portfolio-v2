@@ -2,7 +2,7 @@
     {
         "date": "April 2023 - Present",
         "title": "Software Engineer Lead, Web and Chatbot Development",
-        "organization": "Equity Bank",
+        "organization": "Equity Group Holdings Limited",
         "stack": [ "TypeScript", "Angular", "Angular Material",  ".NET Framework", "C#",  "html", "scss/css", "Bootstrap", "Azure", "SQL Server"],
         "tools": ["Git", "Bash", "Azure", "Azure Pipelines", "Docker", "Kubernetes", "zsh"],
         "responsibilities": [],
@@ -20,7 +20,7 @@
     {
         "date": "May 2021 - April 2023",
         "title": "Senior Software Engineer",
-        "organization": "Equity Bank",
+        "organization": "Equity Group Holdings Limited",
         "stack": [ "Javascript", "TypeScript", "Angular", "Angular Material", "html", "scss/css", "Bootstrap", "Azure"],
         "tools": ["Git", "Bash", "Azure", "Azure Pipelines", "Docker", "Kubernetes", "zsh"],
         "responsibilities": [],
@@ -29,7 +29,7 @@
     {
         "date": "Feb 2020 - May 2021",
         "title": "Software Engineer, Frontend",
-        "organization": "Equity Bank",
+        "organization": "Equity Group Holdings Limited",
         "stack": ["TypeScript",  "Angular", "Angular Material", "html", "scss/css", "Bootstrap"],
         "tools": ["Git", "Bash", "Azure", "Azure Pipelines", "Docker", "Kubernetes", "zsh"],
         "responsibilities": [],

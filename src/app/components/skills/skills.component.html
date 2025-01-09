@@ -1,14 +1,14 @@
 <div class="container py-8">
-    <div class="flex flex-row gap-20 justify-start flex-wrap">
+    <div class="flex flex-column gap-10 justify-start flex-wrap">
         @for(cat of categories; track cat) {
-            <div class="category flex flex-column">
-                <div class="">
-                    <h2 class="font-bold text-sm py-4">{{cat | titlecase}}</h2>
-                    <ul>
+            <div class="category">
+                <div class="skills-section">
+                    <p class="font-semibold text-dense_water_primary">
+                        {{ cat }}:
                         @for(i of sections.get(cat); track i){
-                            <li class="text-xs">{{i}}</li>
+                            <span class="text-sm text-color_white font-light">{{i}}, </span>
                         }
-                    </ul>
+                    </p>
                 </div>
             </div>
         }
