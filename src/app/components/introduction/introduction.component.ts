@@ -27,7 +27,7 @@ export class IntroductionComponent implements AfterViewInit {
   taglines = [
     "that positively impact communities",
     "that empower people to do more",
-    "that are secure and accessible to all users"
+    "that are secure and accessible"
   ]
 
   backendDisplayText = "Backend";
