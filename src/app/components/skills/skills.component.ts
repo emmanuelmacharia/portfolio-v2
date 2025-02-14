@@ -12,7 +12,7 @@ import { faBiohazard } from '@fortawesome/free-solid-svg-icons';
 export class SkillsComponent{
   sections: Map<string, string[]> = new Map([
       ["languages", ["Python", "Typescript", "Javascript", "C#", "HTML", "CSS/SCSS", "SQL"]],
-      ["frameworks & libraries", ["Angular", "React", "Next", "Node", "Flask", ".NET Framework", "Express", "Angular Material", "Bootstrap",  "Tailwind css", "MUI"]],
+      ["frameworks & libraries", ["Angular", "React", "Vue", "Next", "Node", "Flask", ".NET Framework", "Express", "Angular Material", "Bootstrap",  "Tailwind css", "MUI"]],
       ["AI & data", ["TensorFlow", "Keras", "PyTorch", "Scikit-learn", "Matplotlib", "Pandas", "Numpy"]],
       ["tools", ["Git & Github", "Bash", "Powershell", "Postman", "Markdown", "Anaconda"]],
       ["devops", ["Docker", "Kubernetes","Azure", "Azure Pipelines", "Heroku", "Gh-Actions", "Netlify" ]],

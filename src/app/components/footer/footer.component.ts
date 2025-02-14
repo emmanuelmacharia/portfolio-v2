@@ -6,4 +6,7 @@ import { Component } from '@angular/core';
   templateUrl: './footer.component.html',
   styleUrl: './footer.component.scss',
 })
-export class FooterComponent {}
+export class FooterComponent {
+  year = new Date().getFullYear();
+  inspired = "https://brittanychiang.com/"
+}

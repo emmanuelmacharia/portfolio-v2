@@ -7,6 +7,7 @@ import { ShowcaseComponent } from './components/showcase/showcase.component';
 import { SkillsComponent } from "./components/skills/skills.component";
 import { NavigationComponent } from "./shared/navigation/navigation.component";
 import { ContactComponent } from './components/contact/contact.component';
+import { FooterComponent } from "./components/footer/footer.component";
 
 @Component({
   selector: 'app-root',
@@ -18,7 +19,7 @@ import { ContactComponent } from './components/contact/contact.component';
     ShowcaseComponent,
     SkillsComponent,
     NavigationComponent,
-    ContactComponent
+    ContactComponent,
 ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
