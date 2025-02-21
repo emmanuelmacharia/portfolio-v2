@@ -42,7 +42,7 @@ export class IntroductionComponent implements AfterViewInit {
       // for the backend console typing
       this.animateConsoleEffect();
       // for the  ML text animation & gsap
-      this.animateAI();
+      // this.animateAI(); - issue as we're deprecating this functionality
       
   }
 
