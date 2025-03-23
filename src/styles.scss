@@ -46,20 +46,21 @@ body {
   ::-webkit-scrollbar {
     cursor: pointer;
     width: 4px;
+    display: none;
   }
 
   ::-webkit-scrollbar-button{}
 
   ::-webkit-scrollbar-thumb{
     @media screen and (max-width > 768px) {
-      height: 5rem;
-      border-radius: 5px;
+      // height: 5rem;
+      // border-radius: 5px;
       margin: 0 auto;
     }
   }
 
   ::-webkit-scrollbar-track{
-    background: var(--royal-secondary);
+    background: var(--royal-primary);
   }
 
 
