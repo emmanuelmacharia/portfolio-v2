@@ -1,5 +1,23 @@
 [
     {
+        "name": "Mosaic (zurura) - A choose your own adventure game",
+        "description": "I architected and implemented the core engine for a 'Choose Your Own Adventure' game designed to immerse players in the vibrant city of Nairobi and its diverse activities. This involved engineering the central game loop and designing the state machine logic to dynamically drive the narrative experience based on player choices. I managed scene presentation, capturing player input, and determining subsequent scenes and narrative outcomes through dynamic branching logic. Complementing the engine, I implemented a flexible Role-Based Access Control (RBAC) system to enable differentiated user experiences. This system defined roles such as Players, who actively engage with the game narrative and make choices; Followers, who observe game progression with restricted interaction; and Architects, granted permissions to administer and modify the game's content and structure, facilitating varied modes of interaction within the game environment. Integral to the design process was a focus on creating an intuitive and visually appealing user experience.",
+        "type": "frontend",
+        "repo":  "https://github.com/emmanuelmacharia/mosaic",
+        "access": "Proprietary",
+        "url": "https://mosaic-cyoad.netlify.app",
+        "stack": ["Typescript", "React", "NextJS", "drizzle-kit", "SingleStore", "mysql", "zod", "Clerk Auth",  "Tailwind css", "Radix", "T3-Stack"]
+    },
+    {
+        "name": "Google Drive Clone",
+        "description": "I developed the core engine for a file management application, providing users with a personal cloud storage solution. This involved engineering the user authentication and authorization framework and designing the folder structure and file upload mechanisms. My work included managing user sign-in, enabling folder creation, and handling file uploads to designated folders. Complementing the engine, I implemented an access control system where users can only view and manage the files they upload. This system defines a User role, where each user has permission to create and manage their own folders and files. Integral to the design process was a focus on creating an intuitive user experience.",
+        "type": "frontend",
+        "repo":  "https://github.com/emmanuelmacharia/drive-tutorial",
+        "access": "Proprietary",
+        "url": "",
+        "stack": ["Typescript", "React", "NextJS", "drizzle-kit", "SingleStore", "mysql", "zod", "Clerk Auth",  "Tailwind css", "Radix", "T3-Stack", "UploadThing"]
+    },
+    {
         "name": "Equity Online",
         "description": "A comprehensive digital banking solution designed to povide customers with access to a wide range of banking services. It caters to individuals and businesses in 6 countries, enabling them to perform transactions, manage accounts, get access to credit and other financial tools from anywhere. I play a pivotal role in it's design, development and deployment; spearheading efforts to create a responsive, scalable and secure platform that meets the diverse needs of millions of customers across multiple regions. I work closely with crossfunctional teams including designers, developers, quality assurance analysts, business analysts and data scientists to create a unified and untuitive user experience ",
         "type": "frontend",

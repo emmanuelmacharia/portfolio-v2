@@ -6,8 +6,12 @@
                     <fa-icon [icon]="bulletIcon" class="mr-1"></fa-icon>
                     <p class="font-semibold text-dense_water_primary text-wrap">
                         {{ cat | titlecase }} :
-                        @for(i of sections.get(cat); track i){
-                            <span class="text-sm text-color_white font-light">{{i}}, </span>
+                        @for(i of sections.get(cat); track i; let last = $last){
+                            <span class="text-sm text-color_white font-light">{{i}} 
+                                @if(!last) {
+                                    <span>, </span> 
+                                }
+                        </span>
                         }
                     </p>
                 </div>
